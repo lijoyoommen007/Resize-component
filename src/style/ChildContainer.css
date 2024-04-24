@@ -1,0 +1,14 @@
+.bgChange {
+    background: linear-gradient(to right, #ff8a00, #e52e71); /* Initial gradient colors */
+    animation: wave 5s infinite alternate; /* Animation definition */
+  }
+  
+  @keyframes wave {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
